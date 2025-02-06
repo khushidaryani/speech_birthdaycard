@@ -1,0 +1,33 @@
+.video-container {
+    margin-top: 50px; 
+    width: 101%; 
+    height: 320px; 
+    position: relative; 
+}
+
+.video-player {
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%) scale(2);
+    z-index: 0;
+}
+
+.birthday-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.birthday-message {
+    font-size: 2rem;
+    margin-top: 50px;
+    color: #D14D72;
+    font-weight: bold;
+    z-index: 1;
+    text-align: center;
+}
